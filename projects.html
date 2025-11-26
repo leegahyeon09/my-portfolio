@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전체 프로젝트 - 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><a href="index.html" class="home-link">← 포트폴리오 홈</a></div>
+    <button id="theme-toggle" class="theme-btn" aria-label="테마 전환">🌙</button>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center">전체 프로젝트</h2>
+      <p class="text-center muted">제가 진행한 프로젝트들을 모아봤습니다.</p>
+
+
+      <div class="grid two-cols project-list">
+        <div class="project-card">
+          <img src="images/1.png" alt="StraySpotter 유기견 신고 앱" />
+          <div class="project-content">
+            <h3>StraySpotter</h3>
+            <p>위치 기반 유기견 신고 및 정보 공유 앱입니다. Firebase 인증·실시간 데이터·지도 기반 시각화 및 댓글 기능을 지원합니다.</p>
+            <div class="tags">
+              <span>Android</span><span>Java</span><span>Firebase DB</span>
+              <span>Google Maps API</span><span>Location API</span><span>Glide</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/2.png" alt="Kinect 기반 치매 예방 게임" />
+          <div class="project-content">
+            <h3>Kinect 기반 치매 예방 게임</h3>
+            <p>Kinect 센서와 Skeleton Tracking을 활용해 손 제스처로 색상 순서를 맞추는 인지훈련 게임입니다. 점수·랭킹 시스템을 통해 지속적인 참여를 유도합니다.</p>
+            <div class="tags">
+              <span>C#</span><span>.NET Framework</span><span>Kinect SDK</span>
+              <span>Skeleton Tracking</span><span>Gesture Recognition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/3.png" alt="WheelGo 교통약자 버스 탑승 지원 앱" />
+          <div class="project-content">
+            <h3>WheelGo</h3>
+            <p>휠체어 이용 승객이 버스 탑승·하차 의사를 미리 운전자에게 전달할 수 있는 실시간 위치 기반 교통약자 지원 서비스입니다. GPS 위치 추적, 경로 추천, 목적지 도착 알림, 정류장 제보·관리 기능을 제공합니다.</p>
+            <div class="tags">
+              <span>React Native</span><span>JavaScript</span><span>MySQL</span>
+              <span>Firebase Auth</span><span>Naver Map API</span><span>Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/4.png" alt="개인 포트폴리오 웹사이트" />
+          <div class="project-content">
+            <h3>개인 포트폴리오 웹사이트</h3>
+            <p>HTML, CSS, JavaScript 기반으로 제작한 개인 포트폴리오 사이트로, 반응형 UI, 다크모드, 프로젝트 카드, 기술 역량 정리, 연락처 폼 등 실제 개발자 포트폴리오에 필요한 모든 기능을 직접 설계하고 구현했습니다.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Responsive Web</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/5.png" alt="코로나 전후 여행 트렌드 분석 프로젝트" />
+          <div class="project-content">
+            <h3>코로나 전후 여행 트렌드 변화 분석</h3>
+            <p>2018~2024년 국내·해외 여행 데이터를 수집·정제하여 코로나 전/중/후 시기별 여행 관심도 변화를 비교 분석한 프로젝트로 시계열 분석, 워드클라우드, Prophet 기반 미래 예측까지 수행했습니다.</p>
+            <div class="tags">
+              <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+              <span>WordCloud</span><span>Seaborn</span><span>Plotly</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/6.png" alt="영화 리뷰 웹 서비스" />
+          <div class="project-content">
+            <h3>영화 리뷰 웹 서비스</h3>
+            <p>JSP와 MySQL로 구현한 영화 리뷰 플랫폼으로, 영화 검색·별점·리뷰 작성 및 마이페이지 관리 기능을 제공합니다.</p>
+            <div class="tags">
+              <span>JSP</span><span>Servlet</span><span>Java</span>
+              <span>MySQL</span><span>JDBC</span><span>HTML</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/7.png" alt="교통수단 이미지 분류 모델" />
+          <div class="project-content">
+            <h3>교통수단 영상 분류 모델</h3>
+            <p>TensorFlow/Keras 기반 CNN 모델로 7개 교통수단 이미지를 분류하고, 데이터 증대 및 하이퍼파라미터 튜닝을 통해 정확도를 향상했습니다.</p>
+            <div class="tags">
+              <span>Python</span><span>TensorFlow</span><span>Keras</span>
+              <span>CNN</span><span>Deep Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/8.png" alt="학사 출석 관리 웹 애플리케이션" />
+          <div class="project-content">
+            <h3>학사 출석 관리 시스템</h3>
+            <p>HTML, CSS, JavaScript로 구현한 학사 관리 웹 서비스로, 로그인, 출석 기록, 이의 신청 및 출석 통계 기능을 제공합니다.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Responsive Web</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/9.png" alt="Java 쇼핑몰 프로그램" />
+          <div class="project-content">
+           <h3>Java 쇼핑몰 프로그램</h3>
+          <p>Java로 구현한 쇼핑몰 시스템으로 로그인, 상품 조회, 장바구니, 가격/인기순 정렬, 결제 기능을 제공합니다.</p>
+            <div class="tags">
+              <span>Java</span><span>MySQL</span><span>MVC Concept</span>
+              <span>Collection Framework</span><span>Console UI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:30px;">
+        <a href="index.html" class="btn">⬅ 메인 페이지로 돌아가기</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    const saved = localStorage.getItem("theme");
+    if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+      toggleBtn.textContent = "☀️";
+    }
+    toggleBtn.addEventListener("click", () => {
+      const isDark = document.documentElement.classList.toggle("dark");
+      toggleBtn.textContent = isDark ? "☀️" : "🌙";
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+  </script>
+</body>
+</html>
