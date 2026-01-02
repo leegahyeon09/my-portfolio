@@ -3,7 +3,7 @@
 HTML, CSS, JavaScript로 제작한 개인 포트폴리오 웹사이트입니다.  
 학업 및 프로젝트 경험을 정리하고, 프론트엔드 개발 역량을 보여주기 위해 제작했습니다.
 
-## 🛠 사용 기술
+## 사용 기술
 - HTML / CSS / JavaScript
 - Responsive Web Design
 - GitHub Pages
